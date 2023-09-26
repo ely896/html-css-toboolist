@@ -46,10 +46,16 @@ header{
 }
 
 .button_tab{
-    border-radius: 10px;
-    width: 80px;
-    height: 35px;
-    text-align: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: aqua;
+  display: inline-block;
+  margin-top: 45px;
+  text-align: center;
+  vertical-align: middle;
+
 }
 
 /*Start Region Box Tab*/
+
