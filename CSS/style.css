@@ -14,27 +14,42 @@
     --button-fuchsia: rgb(242, 26, 138);
     --button-green: green;
     --button-colortext: white;
-    --button-text: black;      
+    --button-text: black;
+    --button-colorgrey: grey;      
 }
 /*End Region Common*/
 
 /*Region Header*/
-.header_dimension{
-    width: 100%;
-    height: 100px;
+header{
+    height: 150px;
     background-color: azure;
-    margin-bottom: 30px;
-    margin left: 30px;
-    padding-top: 35px;
 }
-
 .logo_img{
+    margin-left: 30px;
     vertical-align: middle;
 }
-
 .logo_text{
-    font-size: 30px;
+    line-height: 150px;
+    vertical-align: middle;
+    display: inline-block;
     color: var(--button-text);
+    font-size: 50px;
+}
+/*Finish Region Header*/
+
+.button_box_tab{
+    width: 80%;
+    height: 100px;
+    padding-bottom: 10px;
+    background-color: azure;
+    margin: auto;
 }
 
-/*Finish Region Header*/
+.button_tab{
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+}
+
+/*Start Region Box Tab*/
