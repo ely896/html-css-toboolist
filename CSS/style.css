@@ -20,42 +20,94 @@
 /*End Region Common*/
 
 /*Region Header*/
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
-    height: 150px;
+    height: 70px;
+    padding: 10px 20px;
+    margin-bottom: 40px;
     background-color: azure;
 }
 .logo_img{
-    margin-left: 30px;
+    height: 100%;
     vertical-align: middle;
 }
 .logo_text{
-    line-height: 150px;
+    line-height: 70px;
     vertical-align: middle;
-    display: inline-block;
     color: var(--button-text);
-    font-size: 50px;
+    font-size: 30px;
 }
 /*Finish Region Header*/
 
-.button_box_tab{
+.container {
     width: 80%;
-    height: 100px;
-    padding-bottom: 10px;
+    height: 1000px;
     background-color: azure;
     margin: auto;
 }
 
-.button_tab{
-  width: 100px;
-  height: 40px;
-  border-radius: 10px;
-  background-color: aqua;
-  display: inline-block;
-  margin-top: 45px;
-  text-align: center;
-  vertical-align: middle;
-
+.top {
+    height: 50px;
+    padding: 0 50px;
+    border-bottom: 2px solid gray;
+    line-height: 50px;
 }
 
-/*Start Region Box Tab*/
+.btn_filled {
+    border: 1px solid rgb(63, 202, 226);
+    background-color: aqua;
+}
 
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn_empy {
+    background-color:white;
+    border: 1px solid gray;
+}
+
+.task {
+    padding: 20px 50px;
+}
+
+.dimension {
+    font-size: 10px;
+}
+
+.check_box {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    display: inline-block;
+    line-height: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid rgb(49, 245, 49)   
+}
+
+.checkbox_color {
+    color: rgb(49, 245, 49);
+    font-size: 15px;
+}
+
+.task_list_row {
+    margin-top: 20px;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.button_size_blu {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+}
