@@ -107,13 +107,13 @@ header{
     width: 100px;
     height: 30px;
     border-radius: 15px;
-    background-color: aqua;
+    background-color: rgb(86, 165, 230);
     text-align: center;
     display: inline-block;
 }
 
 .button_size_violet {
-    width: 100px;
+    width: 80px;
     height: 30px;
     border-radius: 15px;
     background-color: rgb(116, 25, 113);
@@ -144,4 +144,35 @@ header{
     background-color: rgb(127, 234, 127);
     text-align: center;
     display: inline-block;
+}
+
+.button_size_orange {
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(228, 169, 61);
+    text-align: center;
+    display: inline-block;
+}
+
+.button_size_lightviolet {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(228, 61, 225);
+    text-align: center;
+    display: inline-block;
+}
+
+.button_size_lightgreen {
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(200, 242, 73);
+    text-align: center;
+    display: inline-block;
+}
+
+.button_text_color {
+    color: aliceblue;
 }
