@@ -111,3 +111,12 @@ header{
     text-align: center;
     display: inline-block;
 }
+
+.button_size_violet {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(116, 25, 113);
+    text-align: center;
+    display: inline-block;
+}
